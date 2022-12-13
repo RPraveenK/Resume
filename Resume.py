@@ -34,8 +34,8 @@ MOBILE="📲 CONTACT: +91-9500214154"
 EMAIL = "pravinpforpolite@gmail.com"
 SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/praveen-kumar-renganathan-b28a3998/",
+    "GitHub": "https://github.com/RPraveenK/",
 }
-
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
