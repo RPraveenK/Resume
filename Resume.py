@@ -33,7 +33,7 @@ MOBILE="📲 CONTACT: +91-9500214154"
 
 EMAIL = "pravinpforpolite@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/praveen-kumar-r-b28a3998/",
+    "LinkedIn": "https://www.linkedin.com/in/praveen-kumar-renganathan-b28a3998/",
 }
 
 
