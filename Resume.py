@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Nov 29 22:56:45 2022
-
-@author: z013012
-"""
 from pathlib import Path
 
 import streamlit as st
