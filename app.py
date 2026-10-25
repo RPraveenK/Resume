@@ -57,6 +57,17 @@ st.markdown(
               url("data:image/svg+xml;base64,{bg}") center / cover fixed no-repeat;
 }}
 header[data-testid="stHeader"] {{ background: transparent; }}
+.stApp {{ color-scheme: dark; }}
+.stApp :where(h1, h2, h3, h4, p, li, label, span, div[data-testid="stMarkdownContainer"]) {{ color: #e6eef3; }}
+.stApp a {{ color: #3fd0c9 !important; }}
+[data-testid="stMetricLabel"] *, [data-testid="stMetricLabel"] {{ color: #9bb0bf !important; }}
+[data-testid="stMetricValue"], [data-testid="stMetricValue"] * {{ color: #e6eef3 !important; }}
+button[data-baseweb="tab"] {{ color: #9bb0bf !important; }}
+button[data-baseweb="tab"][aria-selected="true"] {{ color: #ffb020 !important; }}
+[data-baseweb="tab-highlight"] {{ background-color: #ffb020 !important; }}
+[data-testid="stBaseButton-primary"] {{ background: #ffb020 !important; border-color: #ffb020 !important; }}
+[data-testid="stBaseButton-primary"], [data-testid="stBaseButton-primary"] * {{ color: #1a1200 !important; }}
+div[role="radiogroup"] label * {{ color: #e6eef3 !important; }}
 .block-container {{ max-width: 1000px; padding-top: 2.5rem; }}
 h1, h2, h3 {{ letter-spacing: -.01em; }}
 .avatar {{ width: 190px; height: 190px; border-radius: 50%; object-fit: cover;
